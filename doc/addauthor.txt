@@ -1,0 +1,23 @@
+*addauthor.txt*  Plugin for add author date
+
+1.1 |install|
+1.2 |maping|
+1.3 |command|
+1.4 |config|
+
+There are {currently} only a few 'corrections'.  Add your own if you like.
+                                           
+                                              *install*
+1.1 how to install
+    :undle ".../vim-addauthor"
+
+1.2 Mappings:                                  *maping*
+   :map  <F2>   :call Addauthor()
+
+1.3 Commands: Add a author.                    *command*
+   :commad -nargs =0 AddAuthor  :call Addauthor()
+
+1.4 addatthor configure                        *config*
+   :let g:loadedaddauthor=1
+This plugin doesn't have any settings.
+
